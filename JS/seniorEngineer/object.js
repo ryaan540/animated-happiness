@@ -22,7 +22,8 @@
     dealer : {
         name : "Best Car Dealer",
         address : "123 Main St, Anytown, USA",
-        contact_number : "555-1234"
+        contact_number : "555-1234",
+        location : "cbd"
       },
       taxes : function() {
          let tax = fuelConsumptionInKml * 0.05;
