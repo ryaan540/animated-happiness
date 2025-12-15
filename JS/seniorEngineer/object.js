@@ -11,8 +11,8 @@
  let has_sun_roof = true;
 
  let myCar = {
-    12 : "mercedes",
-    false : "class G",
+    manufacturer : "mercedes",
+    model : "class G",
     type :" G-Wagon",
     color : "black",
     fuelConsumptionInKml : 15,
@@ -33,5 +33,6 @@
       "true" : false,
       0 : "This is a special key",
     };
+
     console.table (myCar);  
     console.table(typeof myCar);
