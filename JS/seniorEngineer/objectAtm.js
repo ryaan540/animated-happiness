@@ -52,10 +52,9 @@ function withdraw() {
 withdraw();
 function getBalance() {
     console.log(`Current balance: ${atm.amount}`);
-}
-
-function logTransaction(type, amount) {
-    let date = new Date;
+    const type = 'Balance Check';
+    const amount = atm.amount;
+    let date = new Date();
     let timeStamp = date.toISOString();
     console.log(timeStamp);
     console.log(`[${timeStamp}] ${type}: ${amount}. Balance: ${atm.amount}`);
