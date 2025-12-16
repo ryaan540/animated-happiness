@@ -61,5 +61,34 @@ function getBalance() {
 }
 
 getBalance();
+console.log(atm);
 
+function storeLastTransaction(amount, type , prevBalance) {
+    let date = new Date();
+    let transaction = {
+        type: type,
+        amount: amount,
+        prevBalance: prevBalance,
+        timeStamp: date.toISOString()
+    };
+    atm.lastTransaction = transaction;
+    console.log('Last Transaction:', transaction);
+}
+
+function showBalance() {
+    if (atm.lastTransaction) {
+        alert(`Hi, ${atm.owmer},
+             your current balance is ${atm.amount}
+             Last Transaction ${atm.lastTransaction.type}
+             Date ${atm.lastTransaction.timeStamp}
+             prevBalance ${atm.lastTransaction.prevBalance}
+             amount Transacted ${atm.lastTransaction.amount}
+             `);
+    } else {
+        alert(`Hi, ${atm.wner}
+            Balance ${atm.amount}`);
+    }
+}
+
+showBalance();
    
