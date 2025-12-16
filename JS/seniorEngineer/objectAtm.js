@@ -77,7 +77,7 @@ function storeLastTransaction(amount, type , prevBalance) {
 
 function showBalance() {
     if (atm.lastTransaction) {
-        alert(`Hi, ${atm.owmer},
+        alert(`Hi, ${atm.owner},
              your current balance is ${atm.amount}
              Last Transaction ${atm.lastTransaction.type}
              Date ${atm.lastTransaction.timeStamp}
@@ -85,7 +85,7 @@ function showBalance() {
              amount Transacted ${atm.lastTransaction.amount}
              `);
     } else {
-        alert(`Hi, ${atm.wner}
+        alert(`Hi, ${atm.owner}
             Balance ${atm.amount}`);
     }
 }
