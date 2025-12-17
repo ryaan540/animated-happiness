@@ -15,7 +15,9 @@ let learnStuff = [
     function greet() {
         alert('goodmorning');
     }
-]
+]//5 1000
+
+
 
 
 function arrayLoop(n) {
@@ -24,6 +26,7 @@ function arrayLoop(n) {
         let date = new Date();
         let timestamp = date.toISOString();
         console.log(` array loop ${timestamp}`);
+        console.log(learnStuff[k])
     }
 }
 arrayLoop(10);
@@ -32,7 +35,7 @@ function from0to10() {
     let k = 0;
     while (k <= 10) {
         console.log("k is ", k);
+        console.log
         k++;
     }
 }
-from0to10(10);
