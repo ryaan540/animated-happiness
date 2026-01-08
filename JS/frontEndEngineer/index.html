@@ -10,18 +10,25 @@
 </head>
 
   <body>
-    <h1> testing </h1>
-    <h1 id="secondh1"> This is very cool </h1>
-    <div>
-       <p>This is a paragraph.</p>
-       <p>This is a paragraph.</p>
-       <p>This is a paragraph.</p>
-       <p>This is a paragraph.</p>
-    </div>
-    <div class="c1">This is div</div>
-    <button class="c1">This the div</button>
-    <span class="c1">testing span element</span>
-    <script src="./domIntroduction.js"></script>
+    <h1 id="testingh1">Change h1</h1>
+    <button onclick="changeH1Text()">Change H1 Text</button>
+    <div id="maincontent"></div>
+    <button onclick="replaceFruits()">Replace Fruits</button>
+
+    <main>
+      <h1>KIDS COLOR GAME</h1>
+      <div id="color-box">
+        <div style="width: 100%; height: 100px; border : 2px solid black"></div>
+      </div>
+      <div>
+        <button onclick="changeColor('red')">Red</button>
+        <button onclick="changeColor('blue')">Blue</button>
+        <button onclick="changeColor('green')">Green</button>
+        <button onclick="changeColor('yellow')">Yellow</button>
+        <button onclick="changeColor('purple')">Purple</button>
+      </div>
+    </main>
+    <script src="./domInnerHtml.js"></script>
   </body>
 </html>
 
