@@ -1,0 +1,27 @@
+{
+  "name": "project",
+  "version": "0.0.0",
+  "description": "js",
+  "keywords": [
+    "test"
+  ],
+  "homepage": "https://github.com/ryaan540/animated-happiness#readme",
+  "bugs": {
+    "url": "https://github.com/ryaan540/animated-happiness/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryaan540/animated-happiness.git"
+  },
+  "license": "MIT",
+  "author": "ryan-ekiru",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "chalk": "^5.6.2"
+  }
+}
