@@ -1,10 +1,16 @@
-import UsersSection from "./UsersSection"       
+import UsersSection from "./UsersSection" 
+import SearchSection from "./SearchSection"
+import StateNumber from "./LearningSection/StateNumber";      
 
-function GithubUsers() {
-    return <div>
-        <h1>Coming Soon</h1>
+function App() {
+    return (
+        <div>
+    <StateNumber />
+    <SearchSection />
     <UsersSection />
     </div>
+    );
 }
 
-export default GithubUsers;
+
+export default App;
